@@ -1,0 +1,150 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-13T09:37:06.113Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2723800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 318800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1522800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc3()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify valid emailid",
+        "description": "",
+        "id": "to-verify-login-function-in-amazon-application;to-verify-valid-emailid",
+        "after": [
+          {
+            "result": {
+              "duration": 213100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 204300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc5()"
+            }
+          },
+          {
+            "result": {
+              "duration": 672700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tc6()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19748646200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To user launch chrome browser",
+            "match": {
+              "location": "StepDefinition.to_user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17762757200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To user enter url",
+            "match": {
+              "location": "StepDefinition.toUserEnterUrl()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9349237200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To user enter valid emaild",
+            "match": {
+              "location": "StepDefinition.toUserEnterValidEmaild()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1727962300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click continue butttton",
+            "match": {
+              "location": "StepDefinition.toClickContinueButttton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To verify login function in amazon application",
+    "description": "",
+    "id": "to-verify-login-function-in-amazon-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/amazonlogin.feature",
+    "tags": [
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
